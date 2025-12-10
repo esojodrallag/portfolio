@@ -40,25 +40,6 @@ body
     color:#E7E7E7;
 }
 
-#showcase .button
-{
-    font-size:18px;
-    text-decoration:none;
-    color:#000;
-    border:#fff 1px solid;
-    background:#fff;
-    padding:10px 20px;
-    border-radius:10px;
-    margin-top:20px;
-}
-
-#showcase .button:hover
-{
-    background:#77B366;
-    border:#77B366;
-    color:#fff;
-}
-
 #section-a
 {
     padding:20px;
