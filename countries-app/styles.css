@@ -53,6 +53,7 @@ main {
 .controls {
     display: flex;
     gap: 20px;
+    margin-top: 20px;
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
