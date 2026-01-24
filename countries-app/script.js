@@ -9,8 +9,8 @@ const loadingMessage = document.getElementById('loadingMessage');
 const errorMessage = document.getElementById('errorMessage');
 const noResults = document.getElementById('noResults');
 
-// API URL
-const API_URL = 'https://restcountries.com/v3.1/all';
+// API URL - Getting specific fields we need for better performance
+const API_URL = 'https://restcountries.com/v3.1/all?fields=name,flags,population,region,capital';
 
 // Fetch countries data from API
 async function fetchCountries() {
