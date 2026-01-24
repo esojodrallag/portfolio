@@ -13,7 +13,6 @@
             <p>Explore countries from around the world</p>
         </div>
     </header>
-
     <main class="container">
         <div class="controls">
             <div class="search-box">
@@ -22,8 +21,7 @@
                     id="searchInput" 
                     placeholder="Search for a country..."
                     aria-label="Search countries">
-            </div>
-            
+            </div>   
             <div class="filter-box">
                 <select id="regionFilter" aria-label="Filter by region">
                     <option value="all">All Regions</option>
@@ -35,23 +33,18 @@
                 </select>
             </div>
         </div>
-
         <div id="loadingMessage" class="loading">
             <div class="spinner"></div>
             <p>Loading countries...</p>
         </div>
-
         <div id="errorMessage" class="error-message" style="display: none;">
             <p>⚠️ Unable to load countries. Please try again later.</p>
         </div>
-
         <div id="countriesContainer" class="countries-grid"></div>
-
         <div id="noResults" class="no-results" style="display: none;">
             <p>No countries found matching your search.</p>
         </div>
     </main>
-
     <footer>
         <div class="container">
             <p>&copy; 2024 World Countries Explorer | Data from <a href="https://restcountries.com" target="_blank">REST Countries API</a></p>
