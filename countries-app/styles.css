@@ -65,25 +65,28 @@ main {
 
 .search-box input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 5px;
     font-size: 1rem;
-    border: 2px solid #ddd;
-    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    background: transparent;
     transition: all 0.3s ease;
 }
 
 .search-box input:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    border-bottom-color: #667eea;
+    box-shadow: none;
 }
 
 .filter-box select {
-    padding: 12px 20px;
+    padding: 12px 5px;
     font-size: 1rem;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    background: white;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
     min-width: 180px;
@@ -91,7 +94,7 @@ main {
 
 .filter-box select:focus {
     outline: none;
-    border-color: #667eea;
+    border-bottom-color: #667eea;
 }
 
 /* Loading Spinner */
